@@ -1,0 +1,51 @@
+/*Universe Home Page CSS */
+/*Index Styles*/
+/*Each Rule Begins With a Selector*/
+/*classes begin with a dot . */
+
+/*For the reactive make the main nav go horiz to vertical*/
+
+html{background:url('../Images/Home_Page_Image.jpg');
+
+}
+
+div.main-nav{
+  text-align: center;
+}
+
+li{display: inline-block;
+  padding: 20px 20px;
+  }
+
+li a {
+  color: white;
+  font-family: fantasy;
+  list-style-type: none;
+  display: inline-block;
+  }
+
+li a:hover{color: blue}
+
+li a:active{font-style: italic;}
+
+
+@media screen and (max-width: 700px) {
+    li {
+        display : block;
+        text-align: center;
+    }
+}
+
+body{
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main{flex:1}
+
+footer{
+  color: Gray;
+  text-align: center;
+  padding-top: 10px;
+}

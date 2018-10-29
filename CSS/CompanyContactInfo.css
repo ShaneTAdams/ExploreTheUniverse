@@ -1,0 +1,47 @@
+
+div.main-nav{
+  text-align: center;
+  background-color: yellow;
+}
+
+li{display: inline-block;
+  padding: 20px 20px;
+  }
+
+li a {
+  color: gray;
+  font-family: fantasy;
+  list-style-type: none;
+  display: inline-block;
+  }
+
+li a:hover{color: blue}
+
+li a:active{font-style: italic;}
+
+
+@media screen and (max-width: 700px) {
+    li {
+        display : block;
+        text-align: center;
+    }
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main{
+  flex: 1;
+}
+
+p{
+  text-align: center;
+}
+
+footer{
+  color: gray;
+  text-align: center;
+}

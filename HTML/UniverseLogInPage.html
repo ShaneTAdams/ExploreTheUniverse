@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>Form Submission</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="../CSS/normalize.css">
+      <link rel="stylesheet" href="../CSS/UniverseLogInPage.css">
+    </head>
+
+    <body>
+      <div class="main-nav">
+        <ul>
+          <li><a href="../HTML/UniverseLogInPage.html">Log-In Page</a></li>
+          <li><a href="../HTML/UniverseHome.html">Home</a></li>
+          <li><a href="../HTML/CompanyContactInfo.html">Company Contact Info</a></li>
+        <ul>
+      </div>
+      <header>
+
+      </header>
+        <main>
+          <h1>Explore the Universe!</h1>
+          <p> Welcome!! Please enter your info below to get started!
+              Already Submitted?  Head to the Home Section instead.
+          </p>
+          <form action="UniverseLogInPage.html" method="post">
+
+            <fieldset>
+              <legend class="number"><span class="number"></span>The Boring Stuff </legend>
+              <label for="name">Name: </label>
+              <input type="text" id="name" name="user_name" maxlength="25">
+              <br>
+              <label for="email">Email: </label>
+              <input type="email" id="email" name="user_email" maxlength="30">
+              <br>
+              <label for="password">Password: </label>
+              <input type="password" id="password" name="user_password" maxlength="30">
+            </fieldset>
+
+            <fieldset>
+              <legend class="number"><span class="number"></span>About You!</legend>
+              <label for="Biography">Biography: </label>
+              <textarea rows="4" maxlength="500">  </textarea>
+            </fieldset>
+
+            <fieldset>
+              <legend class="number"><span class="number"></span></legend>
+              <label>Education Level: </label><br>
+              <input type="radio" id="Early_Education" value="Early Education" name="Education Level">
+                <label for="Early Education" class="Education">Early Education</label><br>
+              <input type="radio" id="High_School" value="High School" name="Education Level">
+                <label for="High School" class="Education">High School</label><br>
+              <input type="radio" id="College" value="College" name="Education Level">
+                <label for="College" class="Education">College</label><br><br>
+            </fieldset>
+
+              <label for="interest">What planet do you live on?</label>
+              <select id="interest" name="user_interest">
+                <optgroup label="Awesome Planets">
+                  <option value="Mercury">Mercury</option>
+                  <option value="Venus">Venus</option>
+                  <option value="Earth">Earth</option>
+                  <option value="Mars">Mars</option>
+                  <option value="Jupiter">Jupiter</option>
+                  <option value="Saturn">Saturn</option>
+                  <option value="Uranus">Uranus</option>
+                </optgroup>
+              </select>
+              <br><br>
+          <button id="submit" type="submit">Submit Now!</button>
+          <script src="../JS/LogIn.js"></script>
+          </form>
+        </main>
+
+      <footer>
+        &copy; 2018 ShaneTAdams - All Rights Reserved
+      </footer>
+
+
+    </body>
+</html>
