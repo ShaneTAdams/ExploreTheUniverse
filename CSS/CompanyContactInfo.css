@@ -37,9 +37,23 @@ main{
   flex: 1;
 }
 
+h1 {text-align: center;
+  color: black;
+  padding-top: 0px;
+  font-family: fantasy;
+}
+
 p{
   text-align: center;
+  font-family: fantasy;
 }
+
+h2 {text-align: center;
+  color: gray;
+  padding-top: 0px;
+  font-family: fantasy;
+}
+
 
 footer{
   color: gray;

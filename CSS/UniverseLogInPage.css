@@ -70,8 +70,9 @@ label.Education{
 }
 
 h1 {text-align: center;
-  color: lightblue;
+  color: #cc5500;
   padding-top: 0px;
+  font-family: fantasy;
 }
 
 p{color:white;
