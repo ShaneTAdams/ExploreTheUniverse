@@ -7,16 +7,6 @@
 
 html{background:url('../Images/UniverseImageUpdated.jpg');}
 
-/*
-.container {
-	display: flex;
-  flex-wrap:wrap;
-  flex-direction:column;
-  height:280px;
-}
-}
-*/
-
 div.main-nav{
   text-align: center;
 }

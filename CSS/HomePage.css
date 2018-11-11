@@ -3,11 +3,10 @@
 /*Each Rule Begins With a Selector*/
 /*classes begin with a dot . */
 
-/*For the reactive make the main nav go horiz to vertical*/
-
 
 div.main-nav{
   text-align: center;
+  background-color: red;
 }
 
 li{display: inline-block;
@@ -15,7 +14,7 @@ li{display: inline-block;
   }
 
 li a {
-  color: gray;
+  color: black;
   font-family: fantasy;
   list-style-type: none;
   display: inline-block;
@@ -51,28 +50,18 @@ h1{
     width: 50%;
 }
 
-/* Clear floats after the columns */
 .row:after {
     content: "";
     display: table;
     clear: both;
 }
 
-* {box-sizing:border-box}
-
-/* Slideshow container */
 .slideshow-container {
   max-width: 1000px;
   position: relative;
   margin: auto;
 }
 
-/* Hide the images by default */
-.mySlides {
-    display: none;
-}
-
-/* Next & previous buttons */
 .prev, .next {
   cursor: pointer;
   position: absolute;
@@ -87,70 +76,48 @@ h1{
   border-radius: 0 3px 3px 0;
 }
 
-/* Position the "next button" to the right */
 .next {
   right: 0;
   border-radius: 3px 0 0 3px;
 }
 
-/* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
+  background-color: red;
 }
 
-/* Caption text */
 .text {
   color: white;
-  font-size: 15px;
+  font-size: 20px;
   padding: 8px 12px;
   position: absolute;
   bottom: 8px;
   width: 100%;
   text-align: center;
+  font-family: fantasy;
 }
 
-/* Number text (1/3 etc) */
-.numbertext {
-  color: gray;
+.selections {
+  color: white;
   font-size: 12px;
   padding: 8px 12px;
   position: absolute;
   top: 0;
 }
 
-/* The dots/bullets/indicators */
 .dot {
   cursor: pointer;
-  height: 15px;
-  width: 15px;
+  height: 10px;
+  width: 10px;
   margin: 0 2px;
-  background-color: #bbb;
+  background-color: black;
   border-radius: 50%;
   display: inline-block;
-  transition: background-color 0.6s ease;
 }
 
 .active, .dot:hover {
-  background-color: #717171;
+  background-color: red;
 }
 
-/* Fading animation */
-.fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 1s;
-  animation-name: fade;
-  animation-duration: 1s;
-}
-
-@-webkit-keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
-}
-
-@keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
-}
 
 footer{
   color: Gray;
